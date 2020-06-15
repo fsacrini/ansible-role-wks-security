@@ -1,0 +1,9 @@
+---
+- name: Update Grub
+  command: update-grub
+  
+- name: Update Database
+  command: dconf update
+
+- name: Reboot System
+  reboot:
